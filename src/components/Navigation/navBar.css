@@ -1,0 +1,134 @@
+.navBarBox{
+
+height: 50px;
+width: 100%;
+display: flex;
+align-items: center;
+position: sticky;
+top: 0;
+background-color:rgb(255, 255, 255);
+
+
+}
+.navBarLeft{
+display: flex;
+align-items: center;
+
+
+flex: 4;
+
+}
+.navBarCenter{
+display: flex;
+align-items: center;
+flex: 5;
+margin-right: 70px;
+
+
+
+}
+.navBarRight{
+display: flex;
+align-items: center;
+flex: 4;
+justify-content: end;
+
+
+
+
+}
+.profilePicImg{
+
+    width: 46px;
+    height: 46px;
+  
+    object-fit: cover;
+    cursor: pointer;
+    margin-left: 38%;
+}
+.profileImg{
+
+   
+    width: 38px;
+    height: 38px;
+    object-fit: cover;
+    border-radius: 50%; 
+    cursor: pointer;
+    margin-right: 20px;
+}
+.searchBarBox{
+
+    width: 70%;
+    height: 35px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    border: none;
+    margin-left: 6%;
+    
+}
+.searchIcon{
+
+
+    margin-left: 10px;
+}
+.searchInput{
+    background-color: rgb(241, 241, 241);
+    border: none;
+    width: 80%;
+}
+.searchInput:focus{
+
+    outline: none;
+}
+.navBarIcon{
+    width: 50px;
+    height: 50px;
+    margin-left: 80px;
+    object-fit: cover;
+    
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+}
+.navBarIcon:hover{
+
+color: rgb(64, 57, 255);
+
+}
+.navBarIconRs{
+    
+    display: flex;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    
+    border-radius: 50%; 
+    cursor: pointer;
+    background-color: rgb(241, 241, 241);
+
+   margin-left: 1px;
+   justify-content: center;
+   margin-right: 5px;
+    
+
+}
+.iconTag{
+
+width: 15px;
+height: 16px;
+background-color: red;
+color: white;
+border-radius: 50%;
+position: absolute;
+display: flex;
+align-items: center;
+margin-left: 20px;
+justify-content: center;
+top: 0;
+
+
+
+}

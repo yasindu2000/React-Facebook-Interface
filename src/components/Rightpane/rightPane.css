@@ -1,0 +1,173 @@
+.rightPaneBox{
+
+background-color: rgb(241, 241, 241);
+flex: 4;
+position: sticky;
+top: 50px;
+height: calc(100vh - 50px);
+overflow-y: scroll;
+
+
+}
+
+
+.rightPaneContainer{
+
+padding: 20px 20px 0 0;
+margin-bottom: 30px;
+
+}
+.addvertesement{
+
+    margin-top: 10px;
+    margin-left: 60px;
+    font-family: 'Open Sans' , sans-serif;
+}
+
+.addImg{
+
+     width: 100%;
+     height: 250px;
+     margin-top: 10px;
+     border-radius: 10px;
+}
+.sponsored{
+
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(132, 132, 133);
+}
+.rightHR01{
+    color: rgb(132, 132, 133);
+    margin-top: 15px;
+}
+.birthdayCardContainer{
+
+ display: flex;
+ align-items: center;
+ 
+
+
+}
+.birthdayImg{
+
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.birthdatText{
+
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(132, 132, 133);
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.birthdaycardText{
+
+
+    font-size: 15px;
+    color: rgb(72, 72, 72);
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.rightHR02{
+    color: rgb(132, 132, 133);
+    margin-top: 15px;
+
+}
+.Contact{
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+}
+.friendContact{
+    
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(132, 132, 133);
+    margin-left: 60px;
+   
+}
+.onlineFriendImg{
+
+    width: 38px;
+    height: 38px;
+   
+    border-radius: 50%; 
+    cursor: pointer;
+    object-fit: cover;
+}
+.onlineFriend{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+  
+    
+    
+}
+.onlineFriendImgContainer{
+    margin-top: 20px;
+    margin-left: 60px;
+     display: flex;
+    position: relative;
+    
+    
+
+}
+.onlineStatus{
+
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: rgb(10, 169, 63);
+    position: absolute;
+    top: 30px;
+    right: 0;
+    border: 2px solid white;
+    
+  
+}
+.onlineFriendName{
+
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.contactRight{
+
+    align-items: center;
+    display: flex;
+   
+  
+   margin-left: 100%;
+    
+}
+.contactSearch{
+
+    color: rgb(132, 132, 133);
+    align-items: center;
+    margin-top: 5px;
+    
+}
+.contactContainer{
+
+
+    align-items: center;
+    display: flex;
+   
+    justify-content: space-between;
+
+}
+.contactDot{
+    color: rgb(132, 132, 133);
+    font-weight: bold;
+    margin-left: 50%;
+    font-size: 20px;
+    margin-top: -7px;
+    
+}
